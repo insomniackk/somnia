@@ -1,0 +1,14 @@
+name = "somnia-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+SUPABASE_URL = "https://lnkxrprvmtlfejunfbob.supabase.co"
+
+# Secrets — set these once with:
+#   wrangler secret put SUPABASE_ANON_KEY
+#   wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+
+[dev]
+port = 8787
