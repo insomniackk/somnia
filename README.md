@@ -17,12 +17,6 @@ Somnia is a mobile roommate matching app for college students — think Hinge fo
 - Mutual match detection
 - Realtime messaging between matches
 
-## Getting Started
-1. Clone the repo
-2. Copy `.env.example` to `.env` and fill in your Supabase credentials
-3. Run `npm install`
-4. Push the schema: paste `supabase/schema.sql` into your Supabase SQL editor
-5. Start the app: `./node_modules/.bin/expo start`
 
 ## Project Structure
 - `app/` — Expo Router screens (auth, onboarding, swipe, matches, messages)
